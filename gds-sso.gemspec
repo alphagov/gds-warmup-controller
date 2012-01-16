@@ -17,6 +17,8 @@ Gem::Specification.new do |s|
   s.rubyforge_project = "gds-warmup-controller"
 
   s.files         = Dir[
+    'app/**/*',
+    'config/**/*',
     'lib/**/*',
     'README.md',
     'Gemfile',
